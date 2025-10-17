@@ -1,0 +1,14 @@
+matkom = {"Deny", "Budi", "Citra", "Dewi"}
+strukdat = {"Citra", "Dewi", "Eko", "Farhan"}
+
+# Operasi gabungan (union)
+gabungan = matkom.union(strukdat)
+print("Gabungan:", gabungan)
+
+# Operasi irisan (intersection)
+irisan = matkom.intersection(strukdat)
+print("Irisan:", irisan)
+
+# Operasi selisih (difference)
+selisih = matkom.difference(strukdat)
+print("Selisih (Matkom |- Strukdat):", selisih)
